@@ -1,26 +1,24 @@
 header{
-    border-bottom: 2px solid #1D1AB2;
-    background-color: #1D1AB2;
-    margin-top: 0%;
+    background: linear-gradient( to bottom right, #0B0974, #1D1AB2);  
+    margin-top: -37px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 header h1{
     color:#ffffff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     font-size: 50px;
-    padding-top: 1.25%;
-    padding-left: 1.5%;
+    padding-top: 0.5%;
+    margin-left: 1.5%;
 }
 
 .menu a{
     color:#ffffff;
+    display: inline-block;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: 30px;
     margin-left: 1.5%;
-    margin-bottom: 1.5%;
-    border-left: 1px solid #ffffff;
-    border-right:1px solid #ffffff;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-bottom: 0.75%;
 }
