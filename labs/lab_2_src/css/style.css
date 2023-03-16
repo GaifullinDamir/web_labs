@@ -1,13 +1,21 @@
+*{
+    font-family: 'Manrope', Arial, sans-serif;
+}
+
 header {
-    font-family: Verdana, sans-serif;
-    color: #f3f2f2;
-    font-size: 25px;
-    background: linear-gradient(#002699,  #0039e6);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    background: #000000;
+    padding: 10px 0px 10px 0px;
     margin:-10px -10px 0px -10px;
 }
 
 header h1{
     margin: 10px 0px 10px 10px;
+    font-weight: 100;
 }
 
 .menu{
@@ -16,8 +24,9 @@ header h1{
 
 .menu a{
     text-decoration: none;
-    color: #f3f2f2;
-    font-size: 20px;
+    color: #d2d2d2;
+    font-size: 17px;
+    margin: 0px 5px 0px 5px;
 }
 
 .base_container{
@@ -26,16 +35,44 @@ header h1{
     align-items: stretch;
 }
 #content{
-    background-color: #002699;
+    background-color: #121212;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 80%;
     margin-left: -8px;
+    border: 0.5px solid #212121;
 }
+
+#content h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#content blockquote{
+    color: #f3f3f3;
+    font-size: 20px;
+    text-align:justify;
+}
+
+.logo{
+    color:#6bc4d6;
+    font-size: 25px;
+}
+
 #sidebar{
-    background-color:red;
+    background-color:#121212;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 20%;
     margin-right: -8px;
+    border: 0.5px solid #212121
+}
+
+#sidebar h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 35px;
 }
