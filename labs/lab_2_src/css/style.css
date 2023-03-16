@@ -135,3 +135,71 @@ footer p{
 .phone{
     flex-basis: 20%;
 }
+
+/* accesories.html */
+
+#accesories_content{
+    min-height: 100vh;
+    background-color: #121212;
+    margin-left: -8px;
+    border: 0.5px solid #212121;
+}
+
+#accesories_content h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#accesories_content blockquote{
+    color: #f3f3f3;
+    font-size: 15px;
+    text-align:center;
+}
+
+#accesories_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content:stretch;
+}
+
+.accesory{
+    flex-basis: 20%;
+}
+
+/* branches.html */
+
+#branches_content{
+    min-height: 100vh;
+    background-color: #121212;
+    margin-left: -8px;
+    border: 0.5px solid #212121;
+}
+
+#branches_content h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#branches_content blockquote{
+    color: #f3f3f3;
+    font-size: 15px;
+    text-align:center;
+}
+
+#branches_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content:stretch;
+}
+
+.branch{
+    flex-basis: 20%;
+}
