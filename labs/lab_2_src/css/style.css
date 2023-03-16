@@ -1,0 +1,41 @@
+header {
+    font-family: Verdana, sans-serif;
+    color: #f3f2f2;
+    font-size: 25px;
+    background: linear-gradient(#002699,  #0039e6);
+    margin:-10px -10px 0px -10px;
+}
+
+header h1{
+    margin: 10px 0px 10px 10px;
+}
+
+.menu{
+    margin: 5px 0px 0px 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #f3f2f2;
+    font-size: 20px;
+}
+
+.base_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#content{
+    background-color: #002699;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 80%;
+    margin-left: -8px;
+}
+#sidebar{
+    background-color:red;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+    margin-right: -8px;
+}
