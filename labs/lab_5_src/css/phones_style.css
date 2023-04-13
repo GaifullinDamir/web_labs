@@ -1,9 +1,8 @@
 
-
 #phones_content{
     min-height: 100vh;
+    flex-basis: 83%;
     background-color: #121212;
-    margin-left: -8px;
     border: 0.5px solid #212121;
 }
 
@@ -14,15 +13,24 @@
     font-size: 35px;
 }
 
-#phones_content figure{
-    color: #f3f3f3;
-    font-size: 15px;
-    text-align:center;
+#phones__sidebar h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#phones__sidebar{
+    min-height: 100vh;
+    background-color:#121212;
+    flex-basis: 16%;
 }
 
 .container{
+    color: #f3f3f3;
+    background-color: #121212;
     display: flex;
-    justify-content:center;
+    justify-content: stretch;
     align-items: center;
     flex-flow: row wrap;
     align-content:stretch;
@@ -30,4 +38,26 @@
 
 .phone{
     flex-basis: 20%;
+}
+
+.tabcontent{
+    padding: 3%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content:stretch;
+}
+
+.tabheader__items{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.tabheader__item{
+    flex-basis: 45px;
+    font-size: 20px;
 }
