@@ -6,19 +6,13 @@
     border: 0.5px solid #212121;
 }
 
-#phones_content h2{
+.container h2{
     text-align: center;
     color: #ffffff;
     font-weight: 100;
     font-size: 35px;
 }
 
-#phones__sidebar h2{
-    text-align: center;
-    color: #ffffff;
-    font-weight: 100;
-    font-size: 35px;
-}
 
 #phones__sidebar{
     min-height: 100vh;
@@ -60,4 +54,12 @@
 .tabheader__item{
     flex-basis: 45px;
     font-size: 20px;
+}
+
+.tabheader__item:hover{
+    color:#6bc4d6;
+}
+
+.active{
+    font-size:25px;
 }
