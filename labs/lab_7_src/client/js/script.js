@@ -210,10 +210,5 @@ window.addEventListener('DOMContentLoaded', () =>{
     }
 
 
-    debugger
-    $(document).ready(function(){
-        $.getJSON('phonesDB.json', data => {
-            console.log(data);
-        });
-    });
+    
 });
