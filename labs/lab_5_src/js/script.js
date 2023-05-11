@@ -208,4 +208,6 @@ window.addEventListener('DOMContentLoaded', () =>{
         tabs[i].classList.add('active');
         phoneTabs[i].render();
     }
+
+    
 });
