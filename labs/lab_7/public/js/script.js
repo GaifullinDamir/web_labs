@@ -7,7 +7,7 @@ const postData = async (url, data) => {
         headers: {
             'Content-type': 'application/json'
         },
-        body: data
+        body: JSON.stringify(data)
     });
     //Возвраащем Promise.
     return await res.json();
@@ -147,7 +147,7 @@ window.addEventListener('DOMContentLoaded', () =>{
     }
 
     const getPhones = async () => {
-        await getResources('http://localhost:8000/phones/getPhonesData').
+        await getResources('http://localhost:8000/getPhonesData').
             then(data => {
                 const phones = dataParse(data);
                 const phoneTabs = [createTabs(phones[0]), createTabs(phones[1]), createTabs(phones[2])];
@@ -170,5 +170,30 @@ window.addEventListener('DOMContentLoaded', () =>{
     }
 
     getPhones();
+    
+    function handleSubmit(event){
+        event.preventDefault();
+
+        const inputName = document.getElementById('username__input');
+        const inputAge = document.getElementById('age__input');
+
+        const data = {
+            username: inputName.value,
+            age: inputAge.value
+        }
+
+        postData('http://localhost:8000/enter', data) 
+                .then(data => {
+                    console.log(data);
+                    form.reset();
+                }).catch(() => {
+                    
+                }).finally(() => {
+                    form.reset();
+                });
+    };
+
+    const form = document.getElementById('phones__form')
+    form.addEventListener('submit', handleSubmit);
     
 });

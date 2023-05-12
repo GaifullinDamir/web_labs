@@ -13,34 +13,34 @@ const __dirname = path.dirname(__filename);
 
 
 const objJSON = fs.readFileSync('public/phonesDB.json');
-const obj = JSON.parse(objJSON);
+
+const storage = {
+};
 
 app.use(express.static(path.join(__dirname, '/public')));
-app.use(express.urlencoded({extended:false}));
+// app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 app.get('/test', (req, res) => {
     res.send('Hello');
 })
 
-app.get('/phones/getPhonesData', (req, res) => {
+app.get('/getPhonesData', (req, res) => {
     res.sendFile(__dirname + '/public/phonesDB.json');
 })
 
+app.post('/enter', (req, res) => {
+    let username = req.body.username;
+    let userAge = req.body.age;
+    if(username !='' && userAge!=''){
+        storage[username] = userAge;
+        console.log(storage);
+        res.sendStatus(200);
+    }
+    if(username =="")
+        res.sendStatus(400);
 
-
-// app.get('/category', (req, res) => {
-//     res.json(category);
-// });
-
-// app.post('/enter', (req, res) => {
-//     const data = req.body;
-//     data.value = +data.value;
-//     repository.data.push(data);
-
-//     console.log(repository);
-//     res.sendStatus(200);
-// });
+})
 
 
 

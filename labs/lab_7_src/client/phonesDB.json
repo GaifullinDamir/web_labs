@@ -34,6 +34,14 @@
             "phoneName" : "Apple iPhone SE 2020",
             "memorySize" : "64 GB",
             "price" : "30 995"
+        },
+        {
+            "src" : "img\\iphone_se_2020.jpg",
+            "picW" : "160px",
+            "picH" :"250px",
+            "phoneName" : "Apple iPhone SE 2020",
+            "memorySize" : "64 GB",
+            "price" : "30 995"
         }
     ],
 
