@@ -1,0 +1,110 @@
+{
+    "iphones": [
+        {
+            "src" : "img\\iphone_14.jpg",
+            "picW" : "178px",
+            "picH" :"240px",
+            "phoneName" : "Apple Iphone 14",
+            "memorySize" : "128 GB",
+            "price" : "72 590"
+        },
+
+        {
+            "src" : "img\\iphone_13.jpg",
+            "picW" : "178px",
+            "picH" :"240px",
+            "phoneName" : "Apple Iphone 13",
+            "memorySize" : "128 GB",
+            "price" : "75 990"
+        },
+
+        {
+            "src" : "img\\iphone_11.jpg",
+            "picW" : "178px",
+            "picH" :"240px",
+            "phoneName" : "Apple Iphone 11",
+            "memorySize" : "64 GB",
+            "price" : "42 490"
+        },
+
+        {
+            "src" : "img\\iphone_se_2020.jpg",
+            "picW" : "160px",
+            "picH" :"250px",
+            "phoneName" : "Apple iPhone SE 2020",
+            "memorySize" : "64 GB",
+            "price" : "30 995"
+        }
+    ],
+
+    "samsungs" : [
+        {
+            "src" : "img\\samsung_galaxy_s23_ultra.jpg",
+            "picW" : "235px",
+            "picH" :"240px",
+            "phoneName" : "Samsung Galaxy S23 Ultra",
+            "memorySize" : "12/256Gb",
+            "price" : "109 990"
+        },
+        {
+            "src" : "img\\samsung_galazy_s23plus.png",
+            "picW" : "205px",
+            "picH" :"240px",
+            "phoneName" : "Samsung Galaxy S23+",
+            "memorySize" : "8/256GB",
+            "price" : "99 990"
+        },
+        {
+            "src" : "img\\samsung_galazy_zfold.jpg",
+            "picW" : "205px",
+            "picH" :"240px",
+            "phoneName" : "Samsung Galaxy Z Fold4",
+            "memorySize" : "12/256Gb",
+            "price" : "152 990"
+        },
+        {
+            "src" : "img\\galaxy_s20.jpg",
+            "picW" : "205px",
+            "picH" :"240px",
+            "phoneName" : "Samsung Galaxy S20 FE G780G",
+            "memorySize" : "6/128GB",
+            "price" : "47 490"
+        }
+    ],
+
+    "honors" : [
+        {
+            "src" : "img\\honor_70.jpg",
+            "picW" : "180px",
+            "picH" :"240px",
+            "phoneName" : "HONOR 70",
+            "memorySize" : "8/256GB",
+            "price" : "45 990"
+        },
+        {
+            "src" : "img\\honor_50.jpg",
+            "picW" : "180px",
+            "picH" :"240px",
+            "phoneName" : "HONOR 50",
+            "memorySize" : "8/128GB",
+            "price" : "39 990"
+        },
+        {
+            "src" : "img\\honor_x8.jpg",
+            "picW" : "187px",
+            "picH" :"240px",
+            "phoneName" : "HONOR X8",
+            "memorySize" : "6/128GB",
+            "price" : "19 990"
+        },
+        {
+            "src" : "img\\honor_x6.jpg",
+            "picW" : "180px",
+            "picH" :"240px",
+            "phoneName" : "HONOR X6",
+            "memorySize" : "4/64GB",
+            "price" : "9 990"
+        }
+    ]
+
+}
